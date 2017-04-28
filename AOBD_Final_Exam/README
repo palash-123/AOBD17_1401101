@@ -1,0 +1,17 @@
+This folder contains four different codes for the implementations of various tasks as follows :
+
+1) mod1.cpp : This file performs the task mentioned in module 1. Currently it outputs the predictions for only 5 users based on a test file.
+
+		For testing you can replace any of the skills inside the testdata.txt in the test folder.
+
+
+2) mod2.cpp : This file performs the task mentioned in module 2. The user has to enter his career goal upon prompt. The skills would be 		suggested that the user needs to achieve in order to pursue his goal.
+
+3) string_clustering.py : This is a python file that performs k means clustering and fuzzy logic implementation. Upon running this file, a new 
+				file namely, "Cluster.txt" would be generated that would contain the different clusters into which the skills 
+				have been classified.Enter the following command in the terminal to run this.
+				python3 string_clustering.py auto.json Skills 25
+
+				This would cluster the skills in the auto.json file into 25 clusters using the skills column.
+
+4) Cleandata.java , cd.java : These are the files that perform data cleaning.(It has already been done and the relevant files uploaded.)
